@@ -32,3 +32,18 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
 });
+
+// Mostrar ou esconder o botão de voltar ao topo
+window.addEventListener("scroll", () => {
+  const btn = document.getElementById("back-to-top");
+  if (!btn) return;
+  btn.style.display = window.scrollY > 300 ? "block" : "none";
+});
+
+// Função para rolar suavemente para o topo
+function scrollToTop() {
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth",
+  });
+}
