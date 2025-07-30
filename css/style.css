@@ -3,7 +3,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'Work Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 body::after {
@@ -23,8 +23,8 @@ body::after {
 }
 
 body {
-  background: #fff5e9;
-  color: #442c1f;
+  background: #002554;
+  color: #A7BCD6;
   line-height: 1.6;
 }
 
