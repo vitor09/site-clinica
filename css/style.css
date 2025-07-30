@@ -24,9 +24,12 @@ z-index: 0;
 }
 
 body {
-background: #DBE2E9;
-color: #002554;
-line-height: 1.6;
+  background: #DBE2E9 url("img/1-marca-dagua-LA01.png") no-repeat center;
+  background-attachment: fixed;
+  background-size: 500px;
+  background-position: center;
+  color: #002554;
+  line-height: 1.6;
 }
 
 header.hero {
@@ -43,6 +46,12 @@ justify-content: center;
 .header-content {
 position: relative;
 z-index: 1;
+}
+
+.header-logo {
+  width: 160px;
+  height: auto;
+  margin-right: 20px;
 }
 
 .profile-pic {
